@@ -1,0 +1,14 @@
+= A course template using Asciidoctor
+
+== Building the course
+Course is written using http://asciidoctor.org/[asciidoctor].
+The build is performed with https://ruby.github.io/rake/[rake].
+
+[source,bash]
+----
+bundle install
+rake
+----
+
+These commands create a html directory with an `index.html` (course in "book" format) and one `chapter.html` for each chapter (slides for each chapter).
+

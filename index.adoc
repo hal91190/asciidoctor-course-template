@@ -1,0 +1,19 @@
+= Title of the course
+include::meta.adoc[]
+:doctype: book
+:toc: left
+:toc-title: Sommaire
+:sectanchors:
+:sectlinks:
+:sectnums:
+:masterdoc: // chapters are embedded in a master document
+include::attributes.adoc[]
+
+:leveloffset: +1
+
+include::intro/intro.adoc[]
+include::chapter1/chapter1.adoc[]
+include::conc/conc.adoc[]
+
+:leveloffset: -1
+

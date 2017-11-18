@@ -1,0 +1,17 @@
+= Section 2
+== Type
+* Un _type_ est un modèle abstrait réunissant à un haut degré les traits essentiels de tous les êtres ou de tous les objets de même nature
+* En informatique, un _type (de donnée)_ spécifie:
+** l'ensemble des valeurs possibles pour cette donnée (définition en _extension_),
+** l'ensemble des opérations applicables à cette donnée (définition en _intention_).
+* Un type spécifie l'_interface_ par laquelle une donnée peut être manipulée
+
+== Exemple : un type Déplaçable
+
+[plantuml,deplacable,png]
+....
+interface Déplaçable {
+    +translate(dx: réel, dy: réel)
+}
+....
+

@@ -1,0 +1,21 @@
+= Introduction
+ifndef::masterdoc[]
+include::../meta.adoc[]
+include::../attributes.adoc[]
+endif::masterdoc[]
+
+:leveloffset: +1
+
+include::lang.adoc[]
+
+include::java.adoc[]
+
+ifdef::masterdoc[]
+[bibliography]
+= Références (POO/Java)
+
+include::bib-java.adoc[]
+endif::masterdoc[]
+
+:leveloffset: -1
+

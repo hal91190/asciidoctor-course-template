@@ -1,0 +1,16 @@
+= Quelques langages de programmation
+
+== Les langages "historiques"
+* https://fr.wikipedia.org/wiki/Fortran[Fortran], https://fr.wikipedia.org/wiki/John_Backus[John Backus] (1954)
+* https://fr.wikipedia.org/wiki/Lisp[Lisp], https://fr.wikipedia.org/wiki/John_McCarthy[John McCarthy] (1958)
+* https://fr.wikipedia.org/wiki/COBOL[COBOL], _Short Range Committee_ (1959)
+* http://en.wikipedia.org/wiki/Simula[Simula], http://heim.ifi.uio.no/~olejohan/[Ole-Johan Dahl] et http://heim.ifi.uio.no/~kristen/[Kristen Nygaard] (années 1960)
+* http://www.smalltalk.org/[SmallTalk], http://en.wikipedia.org/wiki/Alan_Kay[Alan Kay] et http://en.wikipedia.org/wiki/Dan_Ingalls[Dan Ingalls] (début des années 1970)
+* https://fr.wikipedia.org/wiki/C_(langage)[C], https://fr.wikipedia.org/wiki/Dennis_Ritchie[Denis Ritchie] (1972)
+* http://en.wikipedia.org/wiki/Eiffel_(programming_language)[Eiffel], http://se.ethz.ch/~meyer/[Bertrand Meyer] (1985)
+* http://en.wikipedia.org/wiki/C\%2B\%2B[C++], http://www.research.att.com/~bs/homepage.html[Bjarne Stroustrup] (années 1980, Standard ISO en 1998)
+
+== Les principaux langages actuels I
+.http://www.tiobe.com/tiobe-index/[TIOBE Index] (jan. 2017)
+image::tiobe_prog_comm_index.png[]
+

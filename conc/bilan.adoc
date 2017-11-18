@@ -1,0 +1,8 @@
+= Bilan
+== Principaux concepts abordés
+* Objet et messages
+* Type et classe, métaclasse, généricité
+* Sous-type, héritage, polymorphisme, classe abstraite, héritage multiple et à répétition
+* Relations entre classes (dépendance, association/agrégation/composition, héritage)
+* Modules
+

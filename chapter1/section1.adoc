@@ -1,0 +1,45 @@
+= Section 1
+== Objet
+* Un _objet_ est formé de deux composants indissociables
+** son _état_, i.e. les valeurs prises par des variables le décrivant (_propriétés_)
+** son _comportement_, i.e. les opérations qui lui sont applicables
+* Un objet est une _instance_ d'une _classe_
+* Un objet peut avoir plusieurs types, i.e. supporter plusieurs interfaces
+
+== Exemple : des points et des cercles
+
+.Diagramme d'objets UML
+[plantuml,points_and_circles,png]
+....
+object point1 {
+  x = 1.0
+  y = 2.0
+}
+
+object point2 {
+  x = 1.0
+  y = 2.0
+}
+
+object cercle1 {
+  rayon = 2.0
+}
+
+cercle1 *-- point1
+....
+
+* Les objets `point1` et `point2` sont des points, `cercle1` est un cercle
+* L'état de chaque objet est représenté par la valeur de ses propriétés
+* Le centre du cercle est une référence sur un objet point
+* Le comportement n'est pas représenté au niveau des objets
+** une opération est invoquée par rapport à un objet
+** mais est rattachée à la classe (le code est partagé par tous les objets d'une classe)
+* Les objets `point1` et `point2` sont égaux mais pas identiques
+
+== Exemple : des points et des cercles (Java)
+
+[source,java,indent=0]
+----
+include::{sourcedir}/coo/PointsAndCirclesDemo.java[tag=pts-and-circles]
+----
+

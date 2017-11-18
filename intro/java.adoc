@@ -1,0 +1,8 @@
+= Le langage Java
+
+== Exemple de déclarations et initialisations de variables
+[source,java,indent=0]
+----
+include::{sourcedir}/intro/VariableDeclarationDemo.java[tag=var-decl]
+----
+

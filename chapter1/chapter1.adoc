@@ -1,0 +1,18 @@
+= Chapter 1
+ifndef::masterdoc[]
+include::../meta.adoc[]
+include::../attributes.adoc[]
+endif::masterdoc[]
+
+:leveloffset: +1
+
+include::section1.adoc[]
+
+include::section2.adoc[]
+
+ifdef::masterdoc[]
+include::chapter1-td.adoc[]
+endif::masterdoc[]
+
+:leveloffset: -1
+

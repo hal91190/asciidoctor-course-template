@@ -1,0 +1,17 @@
+= Exercices (Java)
+
+[CAUTION]
+====
+* Utilisation de l'environnement de développement https://www.bluej.org/[BlueJ].
+====
+
+== Découverte de BlueJ
+Dans cette exercice, vous apprendrez les manipulations de base de l'environnement https://www.bluej.org/[BlueJ].
+
+. Ouvrez le projet d'exemple `people2` (_Projects/Open Projet..._).
+Les projets d'exemples se trouvent dans le répertoire d'installation de BlueJ sous Windows ou dans `/usr/share/doc/BlueJ` sous Linux.
+.. Quelles classes y-a-t-il dans ce projet ?
+.. Quels logiciels faut-il pour compiler un projet en Java ? pour l'exécuter ?
+. Création d'objet (_menu contextuel d'une classe_)
+.. Quels constructeurs sont disponibles pour chaque classe ?
+
